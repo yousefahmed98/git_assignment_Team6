@@ -5,6 +5,7 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			//test
+			//test2
 			new ReallySimpleSubscriber(),
 	};
 	public static void main(String[] args) {
