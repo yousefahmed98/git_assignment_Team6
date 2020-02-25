@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
+			//test
 			new ReallySimpleSubscriber(),
 	};
 	public static void main(String[] args) {
