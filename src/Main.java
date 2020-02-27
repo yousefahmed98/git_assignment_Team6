@@ -12,6 +12,7 @@ public class Main {
 		for (ISubscriber sub : subscribers) {
 			mathTopic.addSubscriber(sub);
 		}
+		
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
