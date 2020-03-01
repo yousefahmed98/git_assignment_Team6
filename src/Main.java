@@ -8,9 +8,8 @@ public class Main {
 			new SphereArea (),
 			new SphereVolume(),
 			new circleVolume(),
-			new SphereArea(),
-      new SphereCircumference(),
-		new CircleCircumference()
+		        new SphereCircumference(),
+			new CircleCircumference()
 
 	};
 	public static void main(String[] args) {
