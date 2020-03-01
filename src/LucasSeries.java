@@ -9,6 +9,7 @@ public class LucasSeries implements ISubscriber {
     }
     private int Lucas (int pos, int value , int prev)
     {
+
         return (pos==0 ? prev : Lucas(pos - 1,prev + value , value));
     }
 
