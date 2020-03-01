@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
 public class Main {
+
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			//test
 			new ReallySimpleSubscriber(),
-		        new SphereVolume(),
+		  new SphereVolume(),
 			new circleVolume(),
-
+      new SphereCircumference()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
