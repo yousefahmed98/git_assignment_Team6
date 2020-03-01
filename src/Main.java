@@ -4,8 +4,8 @@ public class Main {
 
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
-			//test
 			new ReallySimpleSubscriber(),
+			new MultiplicationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
