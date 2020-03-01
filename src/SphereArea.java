@@ -6,6 +6,4 @@ public class SphereArea implements ISubscriber {
         area= 4.0 * (22.0/7.0) * R*R;
         System.out.println("The Sphere Area = "+area);
     }
-
-
 }
