@@ -8,7 +8,7 @@ public class Main {
 			new LucasSeries(),
 			new SphereArea (),
 			new SphereVolume(),
-			new ballVolume(),
+			new circleVolume(),
 		  new SphereCircumference(),
 			new CircleCircumference(),
 			new CircleArea(),
@@ -70,7 +70,7 @@ public class Main {
 				mathTopic.dispatchEvent(r);
 			}
 			else if (toDo == 5) {
-				ISubscriber temp = new ballVolume();
+				ISubscriber temp = new circleVolume();
 				mathTopic.addSubscriber(temp);
 				System.out.print("redius of the ball = ");
 				String r = sc.next();
